@@ -1,0 +1,75 @@
+
+/**footer section start**/
+.footersection{
+    width: 100%;
+    height: auto;
+    padding: 70px 0 20px 0!important;
+    background: #808080;
+    position: relative;
+}
+
+.footersection p{
+    color: #fff;
+}
+
+.footersection li{
+    font-size: 0.9rem;
+    line-height: 1.6rem;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.footersection h3{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem!important;
+    font-weight: bold;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+}
+
+.footer-div li a{
+    color: #fff;
+}
+
+#myBtn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBtn:hover{
+    background: #606060;
+}
+
+.input-group-append button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #00abff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5 0px #999;
+}
+
+.input-group-append button:hover {background-color: #606060}
+
+.input-group-append button:active {
+    background-color: #00abff;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+/**footer section end**/
+
